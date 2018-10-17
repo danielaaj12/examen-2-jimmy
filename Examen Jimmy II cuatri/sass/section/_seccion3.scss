@@ -1,0 +1,36 @@
+/****************
+      Footer
+*****************/
+
+.seccion3{
+      position: sticky;
+      top: 0;
+      background: $blue;
+      padding: 55px 10% 25px;
+      z-index: 1;
+      color: $white;
+      padding: 0px 0 230px;
+      position: relative;
+}
+#azul{
+      background-color:#30bae7;
+      border: 0;
+      color:$white; 
+      margin: 50px;
+      padding: 15px 80px;
+          
+}
+
+.footer li{
+      list-style: none;
+      display: inline;
+      
+}
+
+#footer + li{
+      background:$darkblue; 
+
+}
+
+
+

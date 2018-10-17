@@ -1,0 +1,59 @@
+
+/****************
+      Header
+*****************/
+
+.seccion1{
+      position: sticky;
+      top: 0;
+      background: $purple;
+      padding: 55px 10% 25px;
+      z-index: 1;
+      color: $white;
+      padding: 0px 0 230px;
+      position: relative;
+}
+.links{
+      list-style: none;
+      display: inline;
+      float:right;
+      min-width: 50%;
+      li{
+            padding: 4px 12px;
+            border-radius: 5px;
+            float: left;
+            margin-left: 5%;
+            position: relative;
+            &:hover{
+                  background: $purple/1.5;
+            }
+            &:first-child{
+                  background-color: $purple/1.5;
+            }
+      }
+
+      a{    
+            text-transform: uppercase;
+            color:$white;
+            text-decoration: none;
+            font-family: 'Titillium Web, sans-serif';
+      }    
+}
+h2{
+      font-weight: 300;
+      font-size: 2.25em;
+      width: 75%;
+      margin: auto;
+      padding: 75px 0 25px;
+      text-align: center;
+  }
+  button{
+      border: 0;
+      background: $orange;
+      color:$white; 
+      margin: 50px;
+      padding: 15px 80px;
+
+  }
+
+

@@ -1,0 +1,18 @@
+/****************
+      Content
+*****************/
+
+.menu li{
+      display: inline;
+
+}
+.seccion2{
+      position: sticky;
+      top: 0;
+      background: $green;
+      padding: 55px 10% 25px;
+      z-index: 1; 
+      color: $white;
+      padding: 0px 0 230px;
+     position: relative;
+}
